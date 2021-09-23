@@ -5,7 +5,14 @@ Creare una funzione che restituisce un array con 15 numeri casuali, tenendo cont
 
 
 
-<?php ?>
+<?php 
+$fifteen_numbers = [];
+    for ($i = 0 ; $i <= 15; $i++ ){
+
+        $random_number = rand(1,100);
+        $fifteen_numbers[] = $random_number;
+    };
+?>
 
 
 
@@ -19,6 +26,10 @@ Creare una funzione che restituisce un array con 15 numeri casuali, tenendo cont
     <title>Snack1</title>
 </head>
 <body>
-    Prova
+    <ul>
+    <?php foreach($fifteen_numbers as $number){ ?>
+        <li><?=  $number ?></li>
+        <?php } ?>
+    </ul>
 </body>
 </html>
