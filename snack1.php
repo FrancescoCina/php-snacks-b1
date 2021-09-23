@@ -15,8 +15,6 @@ $fifteen_numbers = [];
 ?>
 
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
