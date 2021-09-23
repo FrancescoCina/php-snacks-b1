@@ -51,3 +51,13 @@
         echo "Accesso Negato!";
     }
  ?>
+
+
+
+
+
+<!-- Query string:
+
+?name=gi&mail=fra@gmail.com&age=27
+
+-->
